@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="8dp"
+    android:paddingHorizontal="4dp">
+
+    <!-- Цветовой маркер -->
+    <View
+        android:id="@+id/statColor"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/bg_notification_badge" />
+
+    <!-- Название категории -->
+    <TextView
+        android:id="@+id/statCategoryName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:textColor="?attr/textColorPrimary"
+        android:textSize="14sp"
+        android:text="Продукты" />
+
+    <!-- Сумма -->
+    <TextView
+        android:id="@+id/statAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="8dp"
+        android:textColor="?attr/textColorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="1,500 ₽" />
+
+    <!-- Процент -->
+    <TextView
+        android:id="@+id/statPercentage"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="end"
+        android:textColor="?attr/textColorSecondary"
+        android:textSize="12sp"
+        android:text="45%" />
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- СТИЛЬ ДЛЯ СПЛЕШ-ЭКРАНА (только один) -->
+    <style name="Theme.MyFin.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Устанавливаем специальный drawable для фона -->
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTheme</item>
+    </style>
+
+    <!-- Стиль для индикатора нижней навигации -->
+    <style name="BottomNavIndicator">
+        <item name="android:width">60dp</item>
+        <item name="android:height">32dp</item>
+        <item name="android:color">#E8EBFF</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MediumRounded</item>
+    </style>
+
+    <!-- Fallback shape overlay for bottom nav indicator -->
+    <style name="ShapeAppearanceOverlay.MediumRounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Тема без ActionBar -->
+    <style name="Theme.MyFin.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Базовая тема приложения -->
+    <style name="Theme.MyFin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary цвета -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Secondary цвета -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Для совместимости с Material 3 -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Системные цвета -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+
+        <!-- Отключаем стандартные анимации при смене темы -->
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTheme</item>
+
+        <!-- Кастомные атрибуты -->
+        <item name="textColorPrimary">@color/text_primary</item>
+        <item name="textColorSecondary">@color/text_secondary</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardStrokeColor">@color/card_stroke</item>
+        <item name="iconBackground">@color/colorPrimary</item>
+        <item name="headerBackground">@drawable/bg_header_rounded</item>
+
+        <!-- АТРИБУТЫ ДЛЯ BOTTOM NAVIGATION -->
+        <item name="bottomNavBackground">@color/surface</item>
+        <item name="bottomNavIconTint">@color/bottom_nav_selector</item>
+        <item name="bottomNavTextColor">@color/bottom_nav_selector</item>
+
+        <!-- Настройки для текста по умолчанию -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Глобальные стили для EditText -->
+        <item name="android:editTextStyle">@style/Widget.MyFin.EditText</item>
+    </style>
+
+    <!-- Стиль для EditText во всем приложении -->
+    <style name="Widget.MyFin.EditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/edit_text_text</item>
+        <item name="android:textColorHint">@color/edit_text_hint</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="boxBackgroundColor">@color/edit_text_background</item>
+    </style>
+
+    <!-- Стиль для TextInputLayout -->
+    <style name="Widget.MyFin.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/edit_text_hint</item>
+    </style>
+
+    <!-- Стиль для bottom navigation -->
+    <style name="Widget.MyFin.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">?attr/bottomNavBackground</item>
+        <item name="itemIconTint">?attr/bottomNavIconTint</item>
+        <item name="itemTextColor">?attr/bottomNavTextColor</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <!-- Стиль для отключения анимаций -->
+    <style name="WindowAnimationTheme">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+
+</resources>

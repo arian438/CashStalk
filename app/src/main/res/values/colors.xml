@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Основные цвета -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="text_tertiary">#999999</color>
+
+    <!-- Серые оттенки -->
+    <color name="gray_light">#E0E0E0</color>
+    <color name="gray_medium">#9E9E9E</color>
+    <color name="gray_dark">#616161</color>
+
+    <!-- Простые названия для серых цветов (для совместимости) -->
+    <color name="light_gray">#E0E0E0</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="dark_gray">#616161</color>
+
+    <!-- Цвета приложения -->
+    <color name="primary_color">#2196F3</color>
+    <color name="secondary_color">#03A9F4</color>
+    <color name="accent_color">#00BCD4</color>
+
+    <!-- Основной цвет приложения (для совместимости с PIN layout) -->
+    <color name="primaryColor">#5F45FF</color>
+    <color name="colorPrimary">#5F45FF</color>
+    <color name="colorPrimaryDark">#4A36CC</color>
+    <color name="colorAccent">#FF6B6B</color>
+
+    <!-- Статусные цвета -->
+    <color name="success_green">#4CAF50</color>
+    <color name="error_red">#F44336</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="info_blue">#2196F3</color>
+
+    <!-- Красный цвет (для ошибок) -->
+    <color name="red">#F44336</color>
+
+    <!-- Фоны -->
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_dark">#212121</color>
+    <color name="background">#F7F8FA</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Тени -->
+    <color name="shadow_light">#1F000000</color>
+    <color name="shadow_dark">#4D000000</color>
+
+    <!-- Разделители -->
+    <color name="divider_color">#1F000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Цвета для транзакций -->
+    <color name="colorIncome">#4CAF50</color>
+    <color name="colorExpense">#F44336</color>
+
+    <!-- Light theme colors - эти цвета будут использоваться в светлой теме -->
+    <color name="text_primary">#161616</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_stroke">#E8E8E8</color>
+
+    <!-- Цвета для EditText (светлая тема) -->
+    <color name="edit_text_text">#161616</color>
+    <color name="edit_text_hint">#9E9E9E</color>
+    <color name="edit_text_background">#FFFFFF</color>
+    <color name="edit_text_stroke">#E8E8E8</color>
+
+    <!-- Для header background (светлая тема) -->
+    <color name="header_gradient_start">#5F45FF</color>
+    <color name="header_gradient_end">#4A36CC</color>
+
+    <!-- Добавляем недостающие цвета для темной темы (как запасные) -->
+    <color name="surface_dark">#1E1E1E</color>
+</resources>

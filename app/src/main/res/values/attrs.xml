@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Объявляем кастомные атрибуты -->
+    <attr name="cardBackgroundColor" format="color|reference" />
+    <attr name="cardStrokeColor" format="color|reference" />
+    <attr name="textColorPrimary" format="color|reference" />
+    <attr name="textColorSecondary" format="color|reference" />
+    <attr name="iconBackground" format="color|reference" />
+    <attr name="headerBackground" format="reference" />
+
+    <!-- Атрибуты для Bottom Navigation -->
+    <attr name="bottomNavBackground" format="color|reference" />
+    <attr name="bottomNavIconTint" format="color|reference" />
+    <attr name="bottomNavTextColor" format="color|reference" />
+</resources>

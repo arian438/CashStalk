@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Фоновый цвет -->
+    <item android:drawable="@color/colorPrimary" />
+
+    <!-- Иконка приложения в центре (только для сплеша) -->
+    <item
+        android:width="120dp"
+        android:height="120dp"
+        android:drawable="@mipmap/ic_currency"
+        android:gravity="center" />
+</layer-list>

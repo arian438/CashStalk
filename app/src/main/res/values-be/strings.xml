@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CashStalk</string>
+    <string name="year_full">%s год</string>
+    <string name="expenses_by_category">Расходы па катэгорыях</string>
+    <string name="incomes_by_category">Даходы па катэгорыях</string>
+    <string name="bar_chart">Агульная статыстыка</string>
+    <string name="pie_chart">Па катэгорыях</string>
+    <string name="no_data_for_period">Няма дадзеных за выбраны перыяд</string>
+    <string name="notifications_permission_title">Дазвол на апавяшчэнні</string>
+    <string name="notifications_permission_rationale">CashStalk хоча адпраўляць вам апавяшчэнні аб новых транзакцыях, напамінах і важных падзеях</string>
+    <string name="mark_all_read">Адзначыць усе як прачытаныя</string>
+    <string name="all_notifications_marked_read">Усе апавяшчэнні адзначаны як прачытаныя</string>
+    <string name="new_notification_received_toast">Новае апавяшчэнне: %1$s</string>
+    <string name="new_notification">Новае апавяшчэнне</string>
+    <string name="notification">Апавяшчэнне</string>
+    <string name="biometrics_not_available">Біяметрыя не падтрымліваецца на гэтай прыладзе</string>
+    <string name="biometrics_auth_success">Аўтэнтыфікацыя паспяховая</string>
+    <string name="biometrics_auth_failed">Памылка аўтэнтыфікацыі</string>
+    <string name="biometrics_auth_cancelled">Аўтэнтыфікацыя адменена</string>
+    <string name="biometrics_required_for_disable">Для адключэння біяметрыі патрабуецца аўтэнтыфікацыя</string>
+    <string name="fingerprint">Адбітак пальца</string>
+    <string name="face_recognition">Распазнаванне твару</string>
+    <string name="fingerprint_enabled">Адбітак пальца ўключаны</string>
+    <string name="fingerprint_disabled">Адбітак пальца адключаны</string>
+    <string name="face_enabled">Распазнаванне твару ўключана</string>
+    <string name="face_disabled">Распазнаванне твару адключана</string>
+    <string name="confirm_fingerprint">Пацвердзіце адбіткам пальца</string>
+    <string name="confirm_face">Пацвердзіце тварам</string>
+    <string name="fingerprint_description">Уваход па адбітку пальца</string>
+    <string name="face_description">Уваход па твары</string>
+    <string name="no_income_categories_empty">Няма катэгорый даходаў\nДадайце сваю першую катэгорыю</string>
+    <string name="create_pin">Стварэнне PIN-кода</string>
+    <string name="create_pin_description">Прыдумайце 4-значны PIN-код для хуткага ўваходу</string>
+    <string name="confirm_pin">Пацвердзіце PIN-код</string>
+    <string name="enter_pin">Увядзіце PIN-код</string>
+    <string name="pins_do_not_match">PIN-коды не супадаюць</string>
+    <string name="pin_created_success">PIN-код паспяхова створаны</string>
+    <string name="invalid_pin">Няправільны PIN-код</string>
+    <string name="invalid_pin_attempts">Няправільны PIN-код. Засталося спроб: %d</string>
+    <string name="too_many_attempts">Занадта шмат няправільных спроб. Паўторыце праз 30 секунд</string>
+    <string name="login_with_password">Увайсці з паролем</string>
+    <string name="continue_text">Працягнуць</string>
+    <string name="error_user_not_found">Карыстальнік не знойдзены</string>
+    <string name="welcome_back">З вяртаннем!</string>
+    <string name="authenticate_to_continue">Пацвердзіце асобу для ўваходу</string>
+    <string name="use_biometric">Увайсці па біяметрыі</string>
+    <string name="use_pin">Увайсці па PIN-кодзе</string>
+    <string name="login_with_pin">Увайсці</string>
+    <string name="biometric_auth_title">Біяметрычная аўтэнтыфікацыя</string>
+    <string name="biometric_auth_subtitle">Пацверджанне асобы</string>
+    <string name="biometric_auth_description">Выкарыстоўвайце адбітак пальца для ўваходу</string>
+    <string name="biometric_auth_success">Уваход выкананы паспяхова</string>
+    <string name="biometric_error_use_pin">Памылка біяметрыі: %1$s. Выкарыстоўвайце PIN-код</string>
+    <string name="forgot_pin_message">Вы будзеце выйдзены з акаўнта і ўвайсці зноў, каб усталяваць новы PIN-код</string>
+    <string name="forgot_pin">Забылі PIN-код?</string>
+    <string name="seconds">секунд</string>
+    <string name="biometrics_auth_title">Біяметрычная аўтэнтыфікацыя</string>
+    <string name="biometrics_auth_subtitle">Пацвердзіце сваю асобу</string>
+    <string name="biometrics_auth_description">Выкарыстоўвайце адбітак пальца для працягу</string>
+    <string name="welcome">Сардэчна запрашаем,</string>
+    <string name="welcome_user">Сардэчна запрашаем, %s 👋</string>
+    <string name="loading">Загрузка...</string>
+    <string name="back">Назад</string>
+    <string name="cancel">Адмена</string>
+    <string name="save">Захаваць</string>
+    <string name="edit">Рэдагаваць</string>
+    <string name="delete">Выдаліць</string>
+    <string name="error">Памылка: %s</string>
+    <string name="unknown_error">невядомая памылка</string>
+    <string name="loading_error">Памылка загрузкі: %s</string>
+    <string name="settings_saved">Налады захаваны</string>
+    <string name="settings_save_error">Памылка захавання: %s</string>
+    <string name="currency_changed">Валюта зменена</string>
+    <string name="home">Галоўная</string>
+    <string name="categories">Катэгорыі</string>
+    <string name="about_app">Пра дадатак</string>
+    <string name="notifications_disabled_long">Апавяшчэнні адключаны. Вы можаце ўключыць іх у наладах прылады</string>
+    <string name="default_initials">КК</string>
+    <string name="about_message" formatted="false">%s\nНұсқа: %s\n\nЖеке қаржыны басқару қосымшасы.\n\nНегізгі мүмкіндіктер:\n• Кірістер мен шығындарды есепке алу\n• Транзакцияларды санаттау\n• Статистика және аналитика\n• Қаржылық деректерді визуализациялау\n• Деректерді әртүрлі форматтарға экспорттау\n\nҚұпиялылық:\n• Қаржылық деректер қорғалған Firebase серверінде сақталады\n• Параметрлер (валюта, тіл, тақырып, push-хабарландырулар, биометрия) құрылғыда жергілікті түрде сақталады\n• Биометриялық аутентификация саусақ ізі арқылы жүзеге асырылады\n\n© %s CashStalk App. Барлық құқықтар қорғалған.</string>
+    <string name="privacy">Құпиялылық</string>
+    <string name="privacy_message">Деректер құпиялылығы\n\nСіздің қаржылық деректеріңіз сенімді қорғалған:\n\n• Барлық транзакциялар мен санаттар қорғалған Firebase Realtime Database серверінде сақталады\n• Деректерге қол жеткізу тек авторизациядан кейін жүзеге асырылады\n• Қосымша параметрлері (валюта, тіл, тақырып, push-хабарландырулар, биометрия) құрылғыңызда жергілікті түрде сақталады\n• Биометриялық аутентификация (саусақ ізі) тек қосымшаны құлыптан шығару үшін қолданылады\n• Деректер үшінші тұлғаларға берілмейді</string>
+    <string name="got_it">Зразумела</string>
+    <!-- Паведамленні аб перавышэнні ліміту -->
+    <string name="notification_limit_exceeded_title">⚠️ Перавышэнне ліміту!</string>
+    <string name="notification_limit_exceeded_message" formatted="false">Катэгорыя "%s": перавышаны ліміт на %s ₽ (%d%% ад ліміту). Бягучыя выдаткі: %s ₽ з %s ₽</string>
+    <string name="notification_limit_almost_title">⚠️ Ліміт амаль перавышаны</string>
+    <string name="notification_limit_almost_message" formatted="false">Катэгорыя "%s": выкарыстана %d%% ліміту (%s ₽ з %s ₽)</string>
+    <string name="ok">OK</string>
+    <string name="about_error">Памылка адкрыцця інфармацыі</string>
+    <string name="settings">Налады</string>
+    <string name="general">Агульныя</string>
+    <string name="currency">Валюта</string>
+    <string name="language">Мова</string>
+    <string name="notifications">Апавяшчэнні</string>
+    <string name="push_notifications">Push-апавяшчэнні</string>
+    <string name="receive_reminders">Атрымліваць напаміны</string>
+    <string name="security">БЯСПЕКА</string>
+    <string name="biometrics">Біяметрыя</string>
+    <string name="face_id_touch_id">Touch ID</string>
+    <string name="change_password">Змяніць пароль</string>
+    <string name="update_password">Абнавіць пароль</string>
+    <string name="appearance">ЗНЕШНІ ВЫГЛЯД</string>
+    <string name="dark_theme">Цёмная тэма</string>
+    <string name="change_appearance">Змяніць афармленне</string>
+    <string name="theme_applied">Тэма прымянёна</string>
+    <string name="light_theme_applied">Светлая тэма ўключана</string>
+    <string name="dark_theme_applied">Цёмная тэма ўключана</string>
+    <string name="notifications_enabled">Апавяшчэнні ўключаны</string>
+    <string name="notifications_disabled">Апавяшчэнні выключаны</string>
+    <string name="biometrics_enabled">Біяметрыя ўключана</string>
+    <string name="biometrics_disabled">Біяметрыя выключана</string>
+    <string name="language_changed">Мова зменена. Перазапуск...</string>
+    <string name="language_already_selected">Мова ўжо выбрана</string>
+    <string name="all_transactions_shown">Паказаны ўсе транзакцыі</string>
+    <string name="logout_error">Памылка выхаду</string>
+    <string name="russian_ruble">Расійскі рубель</string>
+    <string name="us_dollar">Долар ЗША</string>
+    <string name="euro">Еўра</string>
+    <string name="kazakhstani_tenge">Тэнге</string>
+    <string name="belarusian_ruble">Беларускі рубель</string>
+    <string name="change">Змяніць</string>
+    <string name="enter_current_password">Увядзіце бягучы пароль</string>
+    <string name="enter_new_password">Увядзіце новы пароль</string>
+    <string name="password_min_length">Пароль павінен утрымліваць мінімум 6 сімвалаў</string>
+    <string name="passwords_do_not_match">Паролі не супадаюць</string>
+    <string name="password_must_differ">Новы пароль павінен адрознівацца ад бягучага</string>
+    <string name="user_not_found">Памылка: карыстальнік не знойдзены</string>
+    <string name="changing_password">Змяненне пароля...</string>
+    <string name="password_changed_success">Пароль паспяхова зменены</string>
+    <string name="password_change_error">Памылка змены пароля: %s</string>
+    <string name="invalid_current_password">Няправільны бягучы пароль</string>
+    <string name="auth_error">Памылка аўтэнтыфікацыі: %s</string>
+    <string name="password_changed">Пароль зменены</string>
+    <string name="relogin_recommendation">Для бяспекі рэкамендуецца ўвайсці зноў. Выйсці зараз?</string>
+    <string name="logout">Выйсці</string>
+    <string name="stay">Застацца</string>
+    <string name="transaction_updated">Транзакцыя абноўлена</string>
+    <string name="transaction_deleted">Транзакцыя выдалена</string>
+    <string name="delete_transaction">Выдаленне транзакцыі</string>
+    <string name="delete_confirmation">Вы ўпэўнены, што хочаце выдаліць транзакцыю "%s"?</string>
+    <string name="no_description">Без апісання</string>
+    <string name="all_transactions">Усе транзакцыі</string>
+    <string name="recent_transactions">Нядаўнія транзакцыі</string>
+    <string name="view_all">Глядзець усе</string>
+    <string name="add_transaction_title">Дадаць транзакцыю</string>
+    <string name="add_button">Дадаць</string>
+    <string name="enter_title">Увядзіце назву</string>
+    <string name="enter_amount">Увядзіце суму</string>
+    <string name="invalid_amount">Увядзіце карэктную суму</string>
+    <string name="transaction_added">Транзакцыя дададзена</string>
+    <string name="transaction_title_label">Назва</string>
+    <string name="transaction_amount_label">Сума</string>
+    <string name="transaction_type_label">Тып</string>
+    <string name="transaction_category_label">Катэгорыя</string>
+    <string name="transaction_date_label">Дата</string>
+    <string name="transaction_description_label">Апісанне (неабавязкова)</string>
+    <string name="transaction_description_hint">Дадайце апісанне</string>
+    <string name="transaction_date_hint">ГГГГ-ММ-ДД</string>
+    <string name="transaction_details">%s: %s ₽</string>
+    <string name="edit_transaction_title">Рэдагаваць транзакцыю</string>
+    <string name="select_date">Выберыце дату</string>
+    <string name="invalid_date_format">Няправільны фармат даты. Выкарыстоўвайце ГГГГ-ММ-ДД</string>
+    <string name="dialog_error">Памылка адкрыцця дыялогу</string>
+    <string name="category_error">Памылка загрузкі катэгорый: %s</string>
+    <string name="save_error">Памылка захавання</string>
+    <string name="unexpected_error">Нечаканая памылка</string>
+    <string name="loading_categories">Загрузка катэгорый...</string>
+    <string name="no_categories_short">Няма катэгорый</string>
+    <string name="please_select_category">Калі ласка, абярыце катэгорыю</string>
+    <string name="auth_error_short">Памылка аўтарызацыі</string>
+    <string name="other_category">Іншае</string>
+    <string name="actions">Дзеянні</string>
+    <string name="filter_all">Усе</string>
+    <string name="filter_today">Сёння</string>
+    <string name="filter_week">Тыдзень</string>
+    <string name="filter_month">Месяц</string>
+    <string name="filter_unread">Непрачытаныя</string>
+    <string name="clear_all">Ачысціць усе</string>
+    <string name="no_notifications">У вас пакуль няма апавяшчэнняў</string>
+    <string name="no_notifications_subtitle">Тут будуць з\'яўляцца вашы апавяшчэнні аб новых транзакцыях і напамінах</string>
+    <string name="new_notification_received">📬 Атрымана новае апавяшчэнне</string>
+    <string name="already_in_notifications">Вы ўжо ў раздзеле апавяшчэнняў</string>
+    <string name="showing_all_notifications">Паказаны ўсе апавяшчэнні</string>
+    <string name="showing_unread_notifications">Паказаны непрачытаныя апавяшчэнні</string>
+    <string name="no_unread_notifications">Няма непрачытаных апавяшчэнняў</string>
+    <string name="all_notifications_read">Усе апавяшчэнні прачытаны</string>
+    <string name="clear_notifications">Ачысціць апавяшчэнні</string>
+    <string name="clear_all_confirmation">Вы ўпэўнены, што хочаце выдаліць усе апавяшчэнні?</string>
+    <string name="clear">Ачысціць</string>
+    <string name="all_notifications_deleted">Усе апавяшчэнні выдалены</string>
+    <string name="opening_transaction">Пераход да транзакцыі #%d</string>
+    <string name="opening_category">Пераход да катэгорыі</string>
+    <string name="opening_add_transaction">Адкрыццё дадання транзакцыі</string>
+    <string name="notification_marked_read">Апавяшчэнне адзначана як прачытанае</string>
+    <string name="welcome_notification_title">Сардэчна запрашаем у MyFin! 👋</string>
+    <string name="welcome_notification_message">Рады бачыць вас у дадатку. Тут будуць з\'яўляцца вашы апавяшчэнні аб транзакцыях і напамінах.</string>
+    <string name="view_categories">Прагляд катэгорый</string>
+    <string name="categories_count_placeholder">Катэгорый: 0</string>
+    <string name="no_categories_settings">Няма катэгорый\nДадайце катэгорыі ў наладах</string>
+    <string name="add_category">Дадаць катэгорыю</string>
+    <string name="total_balance">Агульны баланс</string>
+    <string name="income">Доход</string>
+    <string name="expense">Расход</string>
+    <string name="no_transactions">Няма транзакцый</string>
+    <string name="add_first_transaction">Дадайце першую транзакцыю</string>
+    <string name="click_to_add">Націсніце, каб дадаць</string>
+    <string name="expenses">Расходы</string>
+    <string name="incomes">Доходы</string>
+    <string name="expense_categories_title">Катэгорыі расходаў</string>
+    <string name="income_categories_title">Катэгорыі доходаў</string>
+    <string name="categories_count">Катэгорый: %d</string>
+    <string name="no_categories">Няма катэгорый расходаў\nДадайце катэгорыі ў Firebase Console</string>
+    <string name="no_categories_found">Катэгорыі не знойдзены\nПраверце падключэнне да Firebase</string>
+    <string name="food">Прадукты</string>
+    <string name="transport">Транспарт</string>
+    <string name="cafe">Кафэ</string>
+    <string name="entertainment">Забавы</string>
+    <string name="health">Здароўе</string>
+    <string name="clothing">Адзенне</string>
+    <string name="salary">Зарплата</string>
+    <string name="freelance">Фрыланс</string>
+    <string name="investments">Інвестыцыі</string>
+    <string name="gifts">Падарункі</string>
+    <string name="add_expense_category">Дадаць катэгорыю расходаў</string>
+    <string name="add_income_category">Дадаць катэгорыю даходаў</string>
+    <string name="categories_count_with_default">Катэгорый: %d (стандартных: %d, вашых: %d)</string>
+    <string name="category_name_required">Увядзіце назву катэгорыі</string>
+    <string name="category_updated">Катэгорыя абноўлена</string>
+    <string name="category_added">Катэгорыя дададзена</string>
+    <string name="category_deleted">Катэгорыя выдалена</string>
+    <string name="delete_category">Выдаленне катэгорыі</string>
+    <string name="delete_category_confirmation">Выдаліць катэгорыю "%s"?</string>
+    <string name="view">Праглядзець</string>
+    <string name="edit_category">Рэдагаваць катэгорыю</string>
+    <string name="default_category">Стандартная катэгорыя</string>
+    <string name="user_category">Ваша катэгорыя</string>
+    <string name="color">Колер</string>
+    <string name="icon">Іконка</string>
+    <string name="monthly_limit">Ліміт</string>
+    <string name="category_preview_name">Назва катэгорыі</string>
+    <string name="no_expense_categories">Няма катэгорый расходаў\nДадайце сваю першую катэгорыю</string>
+    <string name="no_income_categories">Няма катэгорый даходаў\nДадайце сваю першую катэгорыю</string>
+    <string name="profile">Профіль</string>
+    <string name="name">Імя</string>
+    <string name="email">Email</string>
+    <string name="export_data">Экспарт даных</string>
+    <string name="load_user_data">Загрузіце даныя карыстальніка</string>
+    <string name="storage_permission_required">Для экспарту даных неабходны дазвол на запіс у сховішча</string>
+    <string name="text_report">Тэкставы справаздача</string>
+    <string name="export_completed">Экспарт завершаны</string>
+    <string name="export_success_message">%s файл паспяхова экспартаваны!\n\n%s</string>
+    <string name="share">Падзяліцца</string>
+    <string name="my_finances_export">Мае фінансы - Экспарт даных</string>
+    <string name="export_file_attached">Прымацаваны файл з маімі фінансавымі данымі</string>
+    <string name="share_file">Падзяліцца файлам</string>
+    <string name="share_error">Не атрымалася падзяліцца файлам: %s</string>
+    <string name="no_data_title">Няма даных для экспарту</string>
+    <string name="no_data_message">У вас пакуль няма транзакцый для экспарту. Дадайце некалькі транзакцый і паспрабуйце зноў.</string>
+
+    <!-- Дадатковыя радкі для профілю (экспарт) -->
+    <string name="export_data_title">Экспарт даных</string>
+    <string name="export_format_csv">CSV файл</string>
+    <string name="export_format_excel">Excel файл</string>
+    <string name="export_format_text">Тэкставы файл</string>
+    <string name="export_confirm">Пачаць экспарт</string>
+    <string name="export_cancel">Адмена</string>
+    <string name="export_in_progress">Экспарт даных...</string>
+    <string name="export_success">Экспарт паспяхова завершаны</string>
+    <string name="export_error">Памылка экспарту: %s</string>
+    <string name="export_file_location">Файл захаваны: %s</string>
+    <string name="export_choose_format">Абярыце фармат экспарту</string>
+    <string name="export_preparing">Падрыхтоўка даных для экспарту...</string>
+    <string name="export_processing">Апрацоўка даных...</string>
+    <string name="export_transactions_count">Экспартавана транзакцый: %d</string>
+    <string name="export_period">Перыяд: %s</string>
+    <string name="export_date_range">з %s па %s</string>
+    <string name="export_all_time">За ўвесь час</string>
+    <string name="share_success">Файл гатовы да адпраўкі</string>
+    <string name="share_error_title">Памылка адпраўкі</string>
+    <string name="file_not_found">Файл не знойдзены</string>
+    <string name="open_file">Адкрыць файл</string>
+    <string name="open_file_location">Паказаць у папцы</string>
+    <string name="export_summary">Выніковая інфармацыя</string>
+    <string name="total_income">Агульны даход: %s %s</string>
+    <string name="total_expense">Агульны расход: %s %s</string>
+    <string name="net_balance">Чысты баланс: %s %s</string>
+    <string name="export_date">Дата экспарту: %s</string>
+    <string name="export_username">Карыстальнік: %s</string>
+    <string name="export_success_title">Экспарт завершаны!</string>
+    <string name="export_success_message_format">Файл %s паспяхова створаны і захаваны ў тэчку Downloads</string>
+    <string name="statistics">Статыстыка</string>
+    <string name="statistics_period_week">За тыдзень</string>
+    <string name="statistics_period_month">За месяц</string>
+    <string name="statistics_period_year">За год</string>
+    <string name="stats_income_expense_by_month">Даходы і расходы па месяцах</string>
+    <string name="week">Тыдзень</string>
+    <string name="month">Месяц</string>
+    <string name="year">Год</string>
+    <string name="loading_data">Памылка загрузкі даных</string>
+    <string name="load_error">Памылка загрузкі</string>
+    <string name="login">Уваход</string>
+    <string name="register">Рэгістрацыя</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Пароль</string>
+    <string name="name_hint">Імя</string>
+    <string name="login_title">Сардэчна запрашаем</string>
+    <string name="login_subtitle">Увайдзіце ў свой акаўнт</string>
+    <string name="forgot_password">Забылі пароль?</string>
+    <string name="sign_in">Увайсці</string>
+    <string name="no_account">Няма акаўнта?</string>
+    <string name="register_link">Зарэгістравацца</string>
+    <string name="register_title">Стварыць акаўнт</string>
+    <string name="register_subtitle">Далучайцеся да нас</string>
+    <string name="confirm_password">Пацвердзіце пароль</string>
+    <string name="already_have_account">Ужо ёсць акаўнт?</string>
+    <string name="sign_in_link">Увайсці</string>
+    <string name="password_recovery_title">Аднаўленне пароля</string>
+    <string name="password_recovery_subtitle">Увядзіце email для аднаўлення</string>
+    <string name="password_recovery_info">На паказаны email будзе адпраўлена пісьмо з інструкцыямі па аднаўленні пароля</string>
+    <string name="send">Адправіць</string>
+    <string name="remember_password">Успомнілі пароль?</string>
+    <string name="login_success">Уваход выкананы паспяхова</string>
+    <string name="registration_success">Рэгістрацыя паспяховая</string>
+    <string name="auth_failed">Памылка аўтарызацыі: %s</string>
+    <string name="invalid_email">Увядзіце карэктны email</string>
+    <string name="weak_password">Пароль павінен быць не менш за 6 сімвалаў</string>
+    <string name="user_exists">Карыстальнік ужо існуе</string>
+    <string name="fill_all_fields">Запоўніце ўсе палі</string>
+    <string name="enter_email_and_password">Увядзіце email і пароль</string>
+    <string name="enter_email">Увядзіце email</string>
+    <string name="reset_password_email_sent">Пісьмо для аднаўлення пароля адпраўлена на %s</string>
+    <string name="category_name_label">Назва катэгорыі</string>
+    <string name="category_select_icon">Выберыце іконку</string>
+    <string name="category_select_color">Выберыце колер</string>
+    <string name="category_monthly_limit_hint">Штомесячны ліміт (толькі для расходаў):</string>
+    <string name="category_preview">Папярэдні прагляд:</string>
+    <string name="delete_notification">Выдаліць апавяшчэнне</string>
+    <string name="delete_notification_confirmation">Вы ўпэўнены, што хочаце выдаліць гэта апавяшчэнне?</string>
+    <string name="notification_deleted">Апавяшчэнне выдалена</string>
+
+    <string-array name="transaction_types">
+        <item>Расход</item>
+        <item>Доход</item>
+    </string-array>
+
+    <string-array name="expense_categories">
+        <item>Прадукты</item>
+        <item>Транспарт</item>
+        <item>Кафэ</item>
+        <item>Забавы</item>
+        <item>Здароўе</item>
+        <item>Адзенне</item>
+        <item>Іншае</item>
+    </string-array>
+
+    <string-array name="income_categories">
+        <item>Зарплата</item>
+        <item>Фрыланс</item>
+        <item>Інвестыцыі</item>
+        <item>Падарункі</item>
+        <item>Іншае</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>Расійскі рубель (₽)</item>
+        <item>Долар ЗША ($)</item>
+        <item>Еўра (€)</item>
+        <item>Тэнге (₸)</item>
+        <item>Беларускі рубель (Br)</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Русский</item>
+        <item>English</item>
+        <item>Қазақша</item>
+        <item>Беларуская</item>
+    </string-array>
+</resources>

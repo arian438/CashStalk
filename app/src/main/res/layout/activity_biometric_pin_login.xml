@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="?android:attr/windowBackground">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_currency"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/welcome_back"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/authenticate_to_continue"
+        android:textColor="?android:attr/textColorSecondary"/>
+
+    <!-- Биометрическая кнопка (видна, если биометрия доступна) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLoginWithBiometric"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/use_biometric"
+        android:textSize="16sp"
+        app:icon="@drawable/ic_fingerprint"
+        app:iconGravity="textStart"
+        android:visibility="gone"/>
+
+    <!-- Переключение метода (видно при биометрии) -->
+    <TextView
+        android:id="@+id/tvUseAnotherMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/use_pin"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <!-- PIN ввод (виден, если биометрия не доступна или пользователь переключился) -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pinInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="@string/enter_pin"
+        app:endIconMode="password_toggle"
+        app:passwordToggleEnabled="true"
+        android:visibility="gone">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pinInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:maxLength="4"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Кнопка входа по PIN -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLoginWithPin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/login_with_pin"
+        android:visibility="gone"/>
+
+    <!-- Забыли PIN -->
+    <TextView
+        android:id="@+id/tvForgotPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/forgot_pin"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="14sp"/>
+
+</LinearLayout>

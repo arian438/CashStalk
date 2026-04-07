@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CashStalk</string>
+
+    <!-- Жыл үшін қолтаңба қосылды -->
+    <string name="year_full">%s жыл</string>
+    <!-- Добавьте в раздел статистики -->
+    <string name="expenses_by_category">Санаттар бойынша шығындар</string>
+    <string name="incomes_by_category">Санаттар бойынша кірістер</string>
+    <string name="bar_chart">Жалпы статистика</string>
+    <string name="pie_chart">Санаттар бойынша</string>
+    <string name="no_data_for_period">Таңдалған кезең үшін деректер жоқ</string>
+    <!-- Разрешения -->
+    <string name="notifications_permission_title">Хабарландыруларға рұқсат</string>
+    <string name="notifications_permission_rationale">MyFin сізге жаңа транзакциялар, еске салулар және маңызды оқиғалар туралы хабарландырулар жібергісі келеді</string>
+    <!-- Добавьте в раздел Хабарландырулар -->
+    <string name="new_notification_received_toast">Жаңа хабарландыру: %1$s</string>
+    <string name="mark_all_read">Барлығын оқылған деп белгілеу</string>
+    <!-- Добавьте в раздел Хабарландырулар -->
+    <string name="all_notifications_marked_read">Барлық хабарландырулар оқылған деп белгіленді</string>
+    <!-- Добавьте эти строки в существующий файл -->
+    <string name="new_notification">Жаңа хабарландыру</string>
+    <string name="notification">Хабарландыру</string>
+    <!-- Биометрия - новые строки для раздельных настроек -->
+    <string name="biometrics_not_available">Биометрия бұл құрылғыда қолжетімді емес</string>
+    <string name="biometrics_auth_success">Аутентификация сәтті</string>
+    <string name="biometrics_auth_failed">Аутентификация қатесі</string>
+    <string name="biometrics_auth_cancelled">Аутентификация болдырылмады</string>
+    <string name="biometrics_required_for_disable">Биометрияны өшіру үшін аутентификация қажет</string>
+    <string name="fingerprint">Саусақ ізі</string>
+    <string name="face_recognition">Бетті тану</string>
+    <string name="fingerprint_enabled">Саусақ ізі қосылды</string>
+    <string name="fingerprint_disabled">Саусақ ізі өшірілді</string>
+    <string name="face_enabled">Бетті тану қосылды</string>
+    <string name="face_disabled">Бетті тану өшірілді</string>
+    <string name="confirm_fingerprint">Саусақ ізімен растаңыз</string>
+    <string name="confirm_face">Бетпен растаңыз</string>
+    <string name="fingerprint_description">Саусақ ізі арқылы кіру</string>
+    <string name="face_description">Бет арқылы кіру</string>
+
+    <!-- Қосымша санат жолдары -->
+    <string name="no_income_categories_empty">Кіріс санаттары жоқ\nБірінші санатыңызды қосыңыз</string>
+
+
+    <!-- PIN-код -->
+    <string name="create_pin">PIN-код құру</string>
+    <string name="create_pin_description">Жылдам кіру үшін 4 таңбалы PIN-код ойлап табыңыз</string>
+    <string name="confirm_pin">PIN-кодты растаңыз</string>
+    <string name="enter_pin">PIN-кодты енгізіңіз</string>
+    <string name="pins_do_not_match">PIN-кодтар сәйкес келмейді</string>
+    <string name="pin_created_success">PIN-код сәтті құрылды</string>
+    <string name="invalid_pin">Қате PIN-код</string>
+    <string name="invalid_pin_attempts">Қате PIN-код. Қалған әрекеттер: %d</string>
+    <string name="too_many_attempts">Тым көп қате әрекеттер. 30 секундтан кейін қайталаңыз</string>
+    <string name="login_with_password">Құпиясөзбен кіру</string>
+    <string name="continue_text">Жалғастыру</string>
+    <string name="error_user_not_found">Пайдаланушы табылмады</string>
+
+    <!-- Biometric login activity -->
+    <string name="welcome_back">Қайта оралуыңызбен!</string>
+    <string name="authenticate_to_continue">Кіру үшін жеке басыңызды растаңыз</string>
+    <string name="use_biometric">Биометрия арқылы кіру</string>
+    <string name="use_pin">PIN-код арқылы кіру</string>
+    <string name="login_with_pin">Кіру</string>
+    <string name="biometric_auth_title">Биометриялық аутентификация</string>
+    <string name="biometric_auth_subtitle">Жеке басты растау</string>
+    <string name="biometric_auth_description">Кіру үшін саусақ ізін қолданыңыз</string>
+    <string name="biometric_auth_success">Кіру сәтті аяқталды</string>
+    <string name="biometric_error_use_pin">Биометрия қатесі: %1$s. PIN-кодты қолданыңыз</string>
+    <string name="forgot_pin_message">Сіз аккаунттан шығарыласыз және жаңа PIN-код орнату үшін қайта кіресіз</string>
+
+    <string name="forgot_pin">PIN-кодты ұмыттыңыз ба?</string>
+    <string name="seconds">секунд</string>
+    <!-- Biometric auth -->
+    <string name="biometrics_auth_title">Биометриялық аутентификация</string>
+    <string name="biometrics_auth_subtitle">Жеке басыңызды растаңыз</string>
+    <string name="biometrics_auth_description">Жалғастыру үшін саусақ ізін қолданыңыз</string>
+    <!-- Жалпы -->
+    <string name="welcome">Қош келдіңіз,</string>
+    <string name="welcome_user">Қош келдіңіз, %s 👋</string>
+    <string name="loading">Жүктелуде...</string>
+    <string name="back">Артқа</string>
+    <string name="cancel">Болдырмау</string>
+    <string name="save">Сақтау</string>
+    <string name="edit">Өңдеу</string>
+    <string name="delete">Жою</string>
+    <string name="error">Қате: %s</string>
+    <string name="unknown_error">белгісіз қате</string>
+    <string name="loading_error">Жүктеу қатесі: %s</string>
+    <string name="settings_saved">Параметрлер сақталды</string>
+    <string name="settings_save_error">Сақтау қатесі: %s</string>
+    <string name="currency_changed">Валюта өзгертілді</string>
+
+    <!-- Навигация -->
+    <string name="home">Басты</string>
+    <string name="categories">Санаттар</string>
+    <string name="about_app">Қосымша туралы</string>
+
+    <!-- Dashboard Activity -->
+    <string name="notifications_disabled_long">Хабарландырулар өшірілген. Оларды құрылғы параметрлерінде қосуға болады</string>
+    <string name="default_initials">ПҚ</string>
+    <string name="about_message" formatted="false">%s\nНұсқа: %s\n\nЖеке қаржыны басқару қосымшасы.\n\nНегізгі мүмкіндіктер:\n• Кірістер мен шығындарды есепке алу\n• Транзакцияларды санаттау\n• Статистика және аналитика\n• Қаржылық деректерді визуализациялау\n• Деректерді әртүрлі форматтарға экспорттау\n\nҚұпиялылық:\n• Қаржылық деректер қорғалған Firebase серверінде сақталады\n• Параметрлер (валюта, тіл, тақырып, push-хабарландырулар, биометрия) құрылғыда жергілікті түрде сақталады\n• Биометриялық аутентификация саусақ ізі арқылы жүзеге асырылады\n\n© %s CashStalk App. Барлық құқықтар қорғалған.</string>
+    <string name="privacy">Құпиялылық</string>
+    <string name="privacy_message">Деректер құпиялылығы\n\nСіздің қаржылық деректеріңіз сенімді қорғалған:\n\n• Барлық транзакциялар мен санаттар қорғалған Firebase Realtime Database серверінде сақталады\n• Деректерге қол жеткізу тек авторизациядан кейін жүзеге асырылады\n• Қосымша параметрлері (валюта, тіл, тақырып, push-хабарландырулар, биометрия) құрылғыңызда жергілікті түрде сақталады\n• Биометриялық аутентификация (саусақ ізі) тек қосымшаны құлыптан шығару үшін қолданылады\n• Деректер үшінші тұлғаларға берілмейді</string>
+    <string name="got_it">Түсінікті</string>
+
+    <string name="ok">OK</string>
+    <string name="about_error">Ақпаратты ашу қатесі</string>
+    <!-- Лимиттен асып кету туралы хабарландырулар -->
+    <string name="notification_limit_exceeded_title">⚠️ Лимиттен асып кетті!</string>
+    <string name="notification_limit_exceeded_message" formatted="false">"%s" санаты: лимит %s ₽ (%d%% лимиттен) асып кетті. Ағымдағы шығыстар: %s ₽ / %s ₽</string>
+    <string name="notification_limit_almost_title">⚠️ Лимит асып кетуге жақын</string>
+    <string name="notification_limit_almost_message" formatted="false">"%s" санаты: лимиттің %d%% пайдаланылды (%s ₽ / %s ₽)</string>
+    <!-- Параметрлер (Settings) -->
+    <string name="settings">Параметрлер</string>
+    <string name="general">Жалпы</string>
+    <string name="currency">Валюта</string>
+    <string name="language">Тіл</string>
+    <string name="notifications">Хабарландырулар</string>
+    <string name="push_notifications">Push-хабарландырулар</string>
+    <string name="receive_reminders">Еске салуларды алу</string>
+    <string name="security">ҚАУПСІЗДІК</string>
+    <string name="biometrics">Биометрия</string>
+    <string name="face_id_touch_id">Touch ID</string>
+    <string name="change_password">Құпиясөзді өзгерту</string>
+    <string name="update_password">Құпиясөзді жаңарту</string>
+    <string name="appearance">СЫРТҚЫ ТҮРІ</string>
+    <string name="dark_theme">Қараңғы тақырып</string>
+    <string name="change_appearance">Пішімді өзгерту</string>
+    <string name="theme_applied">Тақырып қолданылды</string>
+    <string name="light_theme_applied">Ашық тақырып қосылды</string>
+    <string name="dark_theme_applied">Қараңғы тақырып қосылды</string>
+    <string name="notifications_enabled">Хабарландырулар қосылды</string>
+    <string name="notifications_disabled">Хабарландырулар өшірілді</string>
+    <string name="biometrics_enabled">Биометрия қосылды</string>
+    <string name="biometrics_disabled">Биометрия өшірілді</string>
+    <string name="language_changed">Тіл өзгертілді. Қайта іске қосу...</string>
+    <string name="language_already_selected">Тіл таңдалған</string>
+    <string name="all_transactions_shown">Барлық транзакциялар көрсетілді</string>
+    <string name="logout_error">Шығу қатесі</string>
+
+    <!-- Валюта атаулары -->
+    <string name="russian_ruble">Ресей рублі</string>
+    <string name="us_dollar">АҚШ доллары</string>
+    <string name="euro">Евро</string>
+    <string name="kazakhstani_tenge">Теңге</string>
+    <string name="belarusian_ruble">Беларусь рублі</string>
+
+    <!-- Құпиясөзді өзгерту -->
+    <string name="change">Өзгерту</string>
+    <string name="enter_current_password">Ағымдағы құпиясөзді енгізіңіз</string>
+    <string name="enter_new_password">Жаңа құпиясөзді енгізіңіз</string>
+    <string name="password_min_length">Құпиясөз кемінде 6 таңбадан тұруы керек</string>
+    <string name="passwords_do_not_match">Құпиясөздер сәйкес келмейді</string>
+    <string name="password_must_differ">Жаңа құпиясөз ағымдағыдан өзгеше болуы керек</string>
+    <string name="user_not_found">Қате: пайдаланушы табылмады</string>
+    <string name="changing_password">Құпиясөзді өзгерту...</string>
+    <string name="password_changed_success">Құпиясөз сәтті өзгертілді</string>
+    <string name="password_change_error">Құпиясөзді өзгерту қатесі: %s</string>
+    <string name="invalid_current_password">Ағымдағы құпиясөз қате</string>
+    <string name="auth_error">Аутентификация қатесі: %s</string>
+    <string name="password_changed">Құпиясөз өзгертілді</string>
+    <string name="relogin_recommendation">Қауіпсіздік үшін қайта кіру ұсынылады. Қазір шығу керек пе?</string>
+    <string name="logout">Шығу</string>
+    <string name="stay">Қалу</string>
+
+    <!-- Транзакциялар -->
+    <string name="transaction_updated">Транзакция жаңартылды</string>
+    <string name="transaction_deleted">Транзакция жойылды</string>
+    <string name="delete_transaction">Транзакцияны жою</string>
+    <string name="delete_confirmation">"%s" транзакциясын жойғыңыз келе ме?</string>
+    <string name="no_description">Сипаттама жоқ</string>
+    <string name="all_transactions">Барлық транзакциялар</string>
+    <string name="recent_transactions">Соңғы транзакциялар</string>
+    <string name="view_all">Барлығы</string>
+    <string name="add_transaction_title">Транзакция қосу</string>
+    <string name="add_button">Қосу</string>
+    <string name="enter_title">Атауын енгізіңіз</string>
+    <string name="enter_amount">Соманы енгізіңіз</string>
+    <string name="invalid_amount">Дұрыс соманы енгізіңіз</string>
+    <string name="transaction_added">Транзакция қосылды</string>
+    <string name="transaction_title_label">Атауы</string>
+    <string name="transaction_amount_label">Сома</string>
+    <string name="transaction_type_label">Түрі</string>
+    <string name="transaction_category_label">Санат</string>
+    <string name="transaction_date_label">Күні</string>
+    <string name="transaction_description_label">Сипаттама (міндетті емес)</string>
+    <string name="transaction_description_hint">Сипаттама қосыңыз</string>
+    <string name="transaction_date_hint">ЖЖЖЖ-АА-КК</string>
+    <string name="edit_transaction_title">Транзакцияны өңдеу</string>
+    <string name="select_date">Күнді таңдаңыз</string>
+    <string name="invalid_date_format">Күн пішімі қате. ЖЖЖЖ-АА-КК қолданыңыз</string>
+    <string name="transaction_details">%s: %s ₽</string>
+
+    <!-- Диалогтар -->
+    <string name="dialog_error">Диалогты ашу қатесі</string>
+    <string name="category_error">Санаттарды жүктеу қатесі: %s</string>
+    <string name="save_error">Сақтау қатесі</string>
+    <string name="unexpected_error">Күтпеген қате</string>
+    <string name="loading_categories">Санаттар жүктелуде...</string>
+    <string name="no_categories_short">Санаттар жоқ</string>
+    <string name="please_select_category">Санатты таңдаңыз</string>
+    <string name="auth_error_short">Авторизация қатесі</string>
+    <string name="other_category">Басқа</string>
+    <string name="actions">Әрекеттер</string>
+
+    <!-- Notifications -->
+    <string name="filter_all">Барлығы</string>
+    <string name="filter_today">Бүгін</string>
+    <string name="filter_week">Апта</string>
+    <string name="filter_month">Ай</string>
+    <string name="filter_unread">Оқылмаған</string>
+    <string name="clear_all">Барлығын тазалау</string>
+    <string name="no_notifications">Әзірге хабарландырулар жоқ</string>
+    <string name="no_notifications_subtitle">Жаңа транзакциялар мен еске салулар туралы хабарландырулар осында шығады</string>
+    <string name="new_notification_received">📬 Жаңа хабарландыру алынды</string>
+    <string name="already_in_notifications">Сіз хабарландырулар бөліміндесіз</string>
+    <string name="showing_all_notifications">Барлық хабарландырулар көрсетілді</string>
+    <string name="showing_unread_notifications">Оқылмаған хабарландырулар көрсетілді</string>
+    <string name="no_unread_notifications">Оқылмаған хабарландырулар жоқ</string>
+    <string name="all_notifications_read">Барлық хабарландырулар оқылды</string>
+    <string name="clear_notifications">Хабарландыруларды тазалау</string>
+    <string name="clear_all_confirmation">Барлық хабарландыруларды жойғыңыз келе ме?</string>
+    <string name="clear">Тазалау</string>
+    <string name="all_notifications_deleted">Барлық хабарландырулар жойылды</string>
+    <string name="opening_transaction">#%d транзакциясына өту</string>
+    <string name="opening_category">Санатқа өту</string>
+    <string name="opening_add_transaction">Транзакция қосу терезесі</string>
+    <string name="notification_marked_read">Хабарландыру оқылған деп белгіленді</string>
+    <string name="welcome_notification_title">MyFin-ге қош келдіңіз! 👋</string>
+    <string name="welcome_notification_message">Сізді қосымшада көргенімізге қуаныштымыз. Транзакциялар мен еске салулар туралы хабарландырулар осында шығады.</string>
+
+    <!-- Categories screen негізгі -->
+    <string name="view_categories">Санаттарды қарау</string>
+    <string name="categories_count_placeholder">Санаттар: 0</string>
+    <string name="no_categories_settings">Санаттар жоқ\nПараметрлерде санаттарды қосыңыз</string>
+    <string name="add_category">Санат қосу</string>
+
+    <!-- Басты экран -->
+    <string name="total_balance">Жалпы баланс</string>
+    <string name="income">Кіріс</string>
+    <string name="expense">Шығын</string>
+    <string name="no_transactions">Транзакциялар жоқ</string>
+    <string name="add_first_transaction">Бірінші транзакцияңызды қосыңыз</string>
+    <string name="click_to_add">Қосу үшін басыңыз</string>
+
+    <!-- Санаттар негізгі -->
+    <string name="expenses">Шығындар</string>
+    <string name="incomes">Кірістер</string>
+    <string name="expense_categories_title">Шығын санаттары</string>
+    <string name="income_categories_title">Кіріс санаттары</string>
+    <string name="categories_count">Санаттар: %d</string>
+    <string name="no_categories">Шығын санаттары жоқ\nFirebase Console-де санаттарды қосыңыз</string>
+    <string name="no_categories_found">Санаттар табылмады\nFirebase қосылымын тексеріңіз</string>
+    <string name="food">Азық-түлік</string>
+    <string name="transport">Көлік</string>
+    <string name="cafe">Кафе</string>
+    <string name="entertainment">Ойын-сауық</string>
+    <string name="health">Денсаулық</string>
+    <string name="clothing">Киім</string>
+    <string name="salary">Жалақы</string>
+    <string name="freelance">Фриланс</string>
+    <string name="investments">Инвестициялар</string>
+    <string name="gifts">Сыйлықтар</string>
+
+    <!-- Қосымша санат жолдары -->
+    <string name="add_expense_category">Шығын санатын қосу</string>
+    <string name="add_income_category">Кіріс санатын қосу</string>
+    <string name="categories_count_with_default">Санаттар: %d (стандартты: %d, сіздікі: %d)</string>
+    <string name="category_name_required">Санат атауын енгізіңіз</string>
+    <string name="category_updated">Санат жаңартылды</string>
+    <string name="category_added">Санат қосылды</string>
+    <string name="category_deleted">Санат жойылды</string>
+    <string name="delete_category">Санатты жою</string>
+    <string name="delete_category_confirmation">"%s" санатын жою?</string>
+    <string name="view">Қарау</string>
+    <string name="edit_category">Санатты өңдеу</string>
+    <string name="default_category">Стандартты санат</string>
+    <string name="user_category">Сіздің санатыңыз</string>
+    <string name="color">Түс</string>
+    <string name="icon">Иконка</string>
+    <string name="monthly_limit">Лимит</string>
+    <string name="category_preview_name">Санат атауы</string>
+    <string name="no_expense_categories">Шығын санаттары жоқ\nБірінші санатыңызды қосыңыз</string>
+    <string name="no_income_categories">Кіріс санаттары жоқ\nБірінші санатыңызды қосыңыз</string>
+
+    <!-- Профиль -->
+    <string name="profile">Профиль</string>
+    <string name="name">Аты</string>
+    <string name="email">Email</string>
+    <string name="export_data">Деректерді экспорттау</string>
+    <string name="load_user_data">Пайдаланушы деректерін жүктеңіз</string>
+    <string name="storage_permission_required">Деректерді экспорттау үшін жадқа жазу рұқсаты қажет</string>
+    <string name="text_report">Мәтіндік есеп</string>
+    <string name="export_completed">Экспорт аяқталды</string>
+    <string name="export_success_message">%s файлы сәтті экспортталды!\n\n%s</string>
+    <string name="share">Бөлісу</string>
+    <string name="my_finances_export">Менің қаржым - Деректер экспорты</string>
+    <string name="export_file_attached">Менің қаржылық деректерім бар файл тіркелген</string>
+    <string name="share_file">Файлмен бөлісу</string>
+    <string name="share_error">Файлмен бөлісу мүмкін болмады: %s</string>
+    <string name="no_data_title">Экспорттауға деректер жоқ</string>
+    <string name="no_data_message">Әзірге экспорттауға транзакциялар жоқ. Бірнеше транзакция қосып, қайтадан көріңіз.</string>
+
+    <!-- Қосымша профиль жолдары (экспорт) -->
+    <string name="export_data_title">Деректерді экспорттау</string>
+    <string name="export_format_csv">CSV файлы</string>
+    <string name="export_format_excel">Excel файлы</string>
+    <string name="export_format_text">Мәтіндік файл</string>
+    <string name="export_confirm">Экспортты бастау</string>
+    <string name="export_cancel">Болдырмау</string>
+    <string name="export_in_progress">Деректер экспортталуда...</string>
+    <string name="export_success">Экспорт сәтті аяқталды</string>
+    <string name="export_error">Экспорт қатесі: %s</string>
+    <string name="export_file_location">Файл сақталды: %s</string>
+    <string name="export_choose_format">Экспорт форматын таңдаңыз</string>
+    <string name="export_preparing">Экспортқа деректер дайындалуда...</string>
+    <string name="export_processing">Деректер өңделуде...</string>
+    <string name="export_transactions_count">Экспортталған транзакциялар: %d</string>
+    <string name="export_period">Кезең: %s</string>
+    <string name="export_date_range">%s бастап %s дейін</string>
+    <string name="export_all_time">Барлық уақыт</string>
+    <string name="share_success">Файл жіберуге дайын</string>
+    <string name="share_error_title">Жіберу қатесі</string>
+    <string name="file_not_found">Файл табылмады</string>
+    <string name="open_file">Файлды ашу</string>
+    <string name="open_file_location">Бумада көрсету</string>
+    <string name="export_summary">Қорытынды ақпарат</string>
+    <string name="total_income">Жалпы кіріс: %s %s</string>
+    <string name="total_expense">Жалпы шығын: %s %s</string>
+    <string name="net_balance">Таза баланс: %s %s</string>
+    <string name="export_date">Экспорт күні: %s</string>
+    <string name="export_username">Пайдаланушы: %s</string>
+    <string name="export_success_title">Экспорт аяқталды!</string>
+    <string name="export_success_message_format">%s файлы сәтті жасалып, Downloads бумасына сақталды</string>
+
+    <!-- Статистика -->
+    <string name="statistics">Статистика</string>
+    <string name="statistics_period_week">Апта бойынша</string>
+    <string name="statistics_period_month">Ай бойынша</string>
+    <string name="statistics_period_year">Жыл бойынша</string>
+    <string name="stats_income_expense_by_month">Айлар бойынша кірістер мен шығыстар</string>
+    <string name="week">Апта</string>
+    <string name="month">Ай</string>
+    <string name="year">Жыл</string>
+
+    <!-- Жүктеу -->
+    <string name="loading_data">Деректерді жүктеу қатесі</string>
+    <string name="load_error">Жүктеу қатесі</string>
+
+    <!-- Кіру/Тіркелу -->
+    <string name="login">Кіру</string>
+    <string name="register">Тіркелу</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Құпиясөз</string>
+    <string name="name_hint">Аты</string>
+    <string name="login_title">Қош келдіңіз</string>
+    <string name="login_subtitle">Аккаунтыңызға кіріңіз</string>
+    <string name="forgot_password">Құпиясөзді ұмыттыңыз ба?</string>
+    <string name="sign_in">Кіру</string>
+    <string name="no_account">Аккаунт жоқ па?</string>
+    <string name="register_link">Тіркелу</string>
+    <string name="register_title">Аккаунт жасау</string>
+    <string name="register_subtitle">Бізге қосылыңыз</string>
+    <string name="confirm_password">Құпиясөзді растаңыз</string>
+    <string name="already_have_account">Аккаунтыңыз бар ма?</string>
+    <string name="sign_in_link">Кіру</string>
+    <string name="password_recovery_title">Құпиясөзді қалпына келтіру</string>
+    <string name="password_recovery_subtitle">Қалпына келтіру үшін email енгізіңіз</string>
+    <string name="password_recovery_info">Көрсетілген email-ға құпиясөзді қалпына келтіру нұсқаулығы бар хат жіберіледі</string>
+    <string name="send">Жіберу</string>
+    <string name="remember_password">Құпиясөзді есіңізге түсірдіңіз бе?</string>
+    <string name="login_success">Кіру сәтті</string>
+    <string name="registration_success">Тіркелу сәтті</string>
+    <string name="auth_failed">Авторизация қатесі: %s</string>
+    <string name="invalid_email">Дұрыс email енгізіңіз</string>
+    <string name="weak_password">Құпиясөз кемінде 6 таңбадан тұруы керек</string>
+    <string name="user_exists">Пайдаланушы бар</string>
+    <string name="fill_all_fields">Барлық өрістерді толтырыңыз</string>
+    <string name="enter_email_and_password">Email мен құпиясөзді енгізіңіз</string>
+    <string name="enter_email">Email енгізіңіз</string>
+    <string name="reset_password_email_sent">Құпиясөзді қалпына келтіру хаты %s адресіне жіберілді</string>
+
+    <!-- Categories dialog -->
+    <string name="category_name_label">Санат атауы</string>
+    <string name="category_select_icon">Иконканы таңдаңыз</string>
+    <string name="category_select_color">Түсті таңдаңыз</string>
+    <string name="category_monthly_limit_hint">Ай сайынғы лимит (тек шығындар үшін):</string>
+    <string name="category_preview">Алдын ала қарау:</string>
+    <string name="delete_notification">Хабарландыруды жою</string>
+    <string name="delete_notification_confirmation">Бұл хабарландыруды жойғыңыз келетініне сенімдісіз бе?</string>
+    <string name="notification_deleted">Хабарландыру жойылды</string>
+
+    <!-- Массивтер -->
+    <string-array name="transaction_types">
+        <item>Шығын</item>
+        <item>Кіріс</item>
+    </string-array>
+
+    <string-array name="expense_categories">
+        <item>Азық-түлік</item>
+        <item>Көлік</item>
+        <item>Кафе</item>
+        <item>Ойын-сауық</item>
+        <item>Денсаулық</item>
+        <item>Киім</item>
+        <item>Басқа</item>
+    </string-array>
+
+    <string-array name="income_categories">
+        <item>Жалақы</item>
+        <item>Фриланс</item>
+        <item>Инвестициялар</item>
+        <item>Сыйлықтар</item>
+        <item>Басқа</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>Ресей рублі (₽)</item>
+        <item>АҚШ доллары ($)</item>
+        <item>Евро (€)</item>
+        <item>Теңге (₸)</item>
+        <item>Беларусь рублі (Br)</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Русский</item>
+        <item>English</item>
+        <item>Қазақша</item>
+        <item>Беларуская</item>
+    </string-array>
+</resources>

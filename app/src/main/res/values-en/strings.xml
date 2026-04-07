@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CashStalk</string>
+    <!-- Added string for year subtitle -->
+    <string name="year_full">%s year</string>
+    <!-- Добавьте в раздел Statistics -->
+    <string name="expenses_by_category">Expenses by category</string>
+    <string name="incomes_by_category">Incomes by category</string>
+    <!-- Notifications - new strings -->
+    <string name="bar_chart">General statistics</string>
+    <string name="pie_chart">By categories</string>
+    <string name="no_data_for_period">No data for selected period</string>
+    <!-- Разрешения / Permissions -->
+    <string name="notifications_permission_title">Notification Permission</string>
+    <string name="notifications_permission_rationale">CashStalk wants to send you notifications about new transactions, reminders and important events</string>
+    <!-- Добавьте в раздел Notifications -->
+    <string name="all_notifications_marked_read">All notifications marked as read</string>
+    <string name="mark_all_read">Mark all as read</string>
+    <!-- Добавьте в раздел Notifications -->
+    <string name="new_notification_received_toast">New notification: %1$s</string>
+
+    <!-- Добавьте эти строки в существующий файл -->
+    <string name="new_notification">New notification</string>
+    <string name="notification">Notification</string>
+    <!-- Biometrics - new strings for separate settings -->
+    <string name="biometrics_not_available">Biometrics not available on this device</string>
+    <string name="biometrics_auth_success">Authentication successful</string>
+    <string name="biometrics_auth_failed">Authentication failed</string>
+    <string name="biometrics_auth_cancelled">Authentication cancelled</string>
+    <string name="biometrics_required_for_disable">Authentication required to disable biometrics</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="face_recognition">Face recognition</string>
+    <string name="fingerprint_enabled">Fingerprint enabled</string>
+    <string name="fingerprint_disabled">Fingerprint disabled</string>
+    <string name="face_enabled">Face recognition enabled</string>
+    <string name="face_disabled">Face recognition disabled</string>
+    <string name="confirm_fingerprint">Confirm with fingerprint</string>
+    <string name="confirm_face">Confirm with face</string>
+    <string name="fingerprint_description">Login with fingerprint</string>
+    <string name="face_description">Login with face</string>
+
+    <!-- Additional strings for categories -->
+    <string name="no_income_categories_empty">No income categories\nAdd your first category</string>
+
+
+    <!-- PIN code -->
+    <string name="create_pin">Create PIN code</string>
+    <string name="create_pin_description">Create a 4-digit PIN for quick access</string>
+    <string name="confirm_pin">Confirm PIN code</string>
+    <string name="enter_pin">Enter PIN code</string>
+    <string name="pins_do_not_match">PIN codes do not match</string>
+    <string name="pin_created_success">PIN code created successfully</string>
+    <string name="invalid_pin">Invalid PIN code</string>
+    <string name="invalid_pin_attempts">Invalid PIN code. Attempts left: %d</string>
+    <string name="too_many_attempts">Too many invalid attempts. Try again in 30 seconds</string>
+    <string name="login_with_password">Login with password</string>
+    <string name="continue_text">Continue</string>
+    <string name="error_user_not_found">User not found</string>
+
+    <!-- Biometric login activity -->
+    <string name="welcome_back">Welcome back!</string>
+    <string name="authenticate_to_continue">Authenticate to continue</string>
+    <string name="use_biometric">Login with biometrics</string>
+    <string name="use_pin">Login with PIN</string>
+    <string name="login_with_pin">Login</string>
+    <string name="biometric_auth_title">Biometric Authentication</string>
+    <string name="biometric_auth_subtitle">Identity Verification</string>
+    <string name="biometric_auth_description">Use your fingerprint to login</string>
+    <string name="biometric_auth_success">Login successful</string>
+    <string name="biometric_error_use_pin">Biometric error: %1$s. Use PIN code</string>
+    <string name="forgot_pin_message">You will be logged out and log in again to set a new PIN</string>
+
+    <string name="seconds">seconds</string>
+    <string name="forgot_pin">Forgot PIN?</string>
+    <!-- Biometric auth -->
+    <string name="biometrics_auth_title">Biometric Authentication</string>
+    <string name="biometrics_auth_subtitle">Verify your identity</string>
+    <string name="biometrics_auth_description">Use your fingerprint to continue</string>
+    <!-- Common -->
+    <string name="welcome">Welcome,</string>
+    <string name="welcome_user">Welcome, %s 👋</string>
+    <string name="loading">Loading...</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="error">Error: %s</string>
+    <string name="unknown_error">unknown error</string>
+    <string name="loading_error">Loading error: %s</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="settings_save_error">Error saving: %s</string>
+    <string name="currency_changed">Currency changed</string>
+
+    <string name="about_message" formatted="false">%s\nVersion: %s\n\nPersonal finance management app.\n\nMain features:\n• Income and expense tracking\n• Transaction categorization\n• Statistics and analytics\n• Financial data visualization\n• Data export to various formats\n\nPrivacy:\n• Financial data is stored on a secure Firebase server\n• Settings (currency, language, theme, push notifications, biometrics) are stored locally on the device\n• Biometric authentication is performed via fingerprint\n\n© %s CashStalk App. All rights reserved.</string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_message">Data Privacy\n\nYour financial data is securely protected:\n\n• All transactions and categories are stored on a secure Firebase Realtime Database server\n• Access to data is granted only after authentication\n• App settings (currency, language, theme, push notifications, biometrics) are stored locally on your device\n• Biometric authentication (fingerprint) is used only for unlocking the app\n• Data is not shared with third parties</string>
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="categories">Categories</string>
+    <string name="about_app">About app</string>
+
+    <!-- Dashboard Activity -->
+    <string name="notifications_disabled_long">Notifications disabled. You can enable them in device settings</string>
+    <string name="default_initials">U</string>
+
+    <string name="got_it">Got it</string>
+    <!-- Limit exceeded notifications -->
+    <string name="notification_limit_exceeded_title">⚠️ Limit exceeded!</string>
+    <string name="notification_limit_exceeded_message" formatted="false">Category "%s": limit exceeded by %s %s (%d%% of limit). Current expenses: %s %s out of %s %s</string>
+    <string name="notification_limit_almost_title">⚠️ Limit almost exceeded</string>
+    <string name="notification_limit_almost_message" formatted="false">Category "%s": %d%% of limit used (%s %s out of %s %s)</string>
+    <string name="ok">OK</string>
+    <string name="about_error">Error opening information</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="general">General</string>
+    <string name="currency">Currency</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="push_notifications">Push notifications</string>
+    <string name="receive_reminders">Receive reminders</string>
+    <string name="security">SECURITY</string>
+    <string name="biometrics">Biometrics</string>
+    <string name="face_id_touch_id">Touch ID</string>
+    <string name="change_password">Change password</string>
+    <string name="update_password">Update password</string>
+    <string name="appearance">APPEARANCE</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="change_appearance">Change appearance</string>
+    <string name="theme_applied">Theme applied</string>
+    <string name="light_theme_applied">Light theme enabled</string>
+    <string name="dark_theme_applied">Dark theme enabled</string>
+    <string name="notifications_enabled">Notifications enabled</string>
+    <string name="notifications_disabled">Notifications disabled</string>
+    <string name="biometrics_enabled">Biometrics enabled</string>
+    <string name="biometrics_disabled">Biometrics disabled</string>
+    <string name="language_changed">Language changed. Restarting...</string>
+    <string name="language_already_selected">Language already selected</string>
+    <string name="all_transactions_shown">All transactions shown</string>
+    <string name="logout_error">Logout error</string>
+
+    <!-- Currency names -->
+    <string name="russian_ruble">Russian ruble</string>
+    <string name="us_dollar">US dollar</string>
+    <string name="euro">Euro</string>
+    <string name="kazakhstani_tenge">Tenge</string>
+    <string name="belarusian_ruble">Belarusian ruble</string>
+
+    <!-- Change password -->
+    <string name="change">Change</string>
+    <string name="enter_current_password">Enter current password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="password_min_length">Password must be at least 6 characters</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="password_must_differ">New password must be different from current</string>
+    <string name="user_not_found">Error: user not found</string>
+    <string name="changing_password">Changing password...</string>
+    <string name="password_changed_success">Password changed successfully</string>
+    <string name="password_change_error">Password change error: %s</string>
+    <string name="invalid_current_password">Invalid current password</string>
+    <string name="auth_error">Authentication error: %s</string>
+    <string name="password_changed">Password changed</string>
+    <string name="relogin_recommendation">For security, it is recommended to log in again. Log out now?</string>
+    <string name="logout">Logout</string>
+    <string name="stay">Stay</string>
+
+    <!-- Transactions -->
+    <string name="transaction_updated">Transaction updated</string>
+    <string name="transaction_deleted">Transaction deleted</string>
+    <string name="delete_transaction">Delete transaction</string>
+    <string name="delete_confirmation">Are you sure you want to delete transaction "%s"?</string>
+    <string name="no_description">No description</string>
+    <string name="all_transactions">All transactions</string>
+    <string name="recent_transactions">Recent transactions</string>
+    <string name="view_all">View all</string>
+    <string name="add_transaction_title">Add transaction</string>
+    <string name="add_button">Add</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="invalid_amount">Enter a valid amount</string>
+    <string name="transaction_added">Transaction added</string>
+    <string name="transaction_title_label">Title</string>
+    <string name="transaction_amount_label">Amount</string>
+    <string name="transaction_type_label">Type</string>
+    <string name="transaction_category_label">Category</string>
+    <string name="transaction_date_label">Date</string>
+    <string name="transaction_description_label">Description (optional)</string>
+    <string name="transaction_description_hint">Add a description</string>
+    <string name="transaction_date_hint">YYYY-MM-DD</string>
+    <string name="transaction_details">%s: %s ₽</string>
+    <string name="edit_transaction_title">Edit transaction</string>
+    <string name="select_date">Select a date</string>
+    <string name="invalid_date_format">Invalid date format. Use YYYY-MM-DD</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_error">Error opening dialog</string>
+    <string name="category_error">Error loading categories: %s</string>
+    <string name="save_error">Save error</string>
+    <string name="unexpected_error">Unexpected error</string>
+    <string name="loading_categories">Loading categories...</string>
+    <string name="no_categories_short">No categories</string>
+    <string name="please_select_category">Please select a category</string>
+    <string name="auth_error_short">Authorization error</string>
+    <string name="other_category">Other</string>
+    <string name="actions">Actions</string>
+
+    <!-- Notifications -->
+    <string name="filter_all">All</string>
+    <string name="filter_today">Today</string>
+    <string name="filter_week">Week</string>
+    <string name="filter_month">Month</string>
+    <string name="filter_unread">Unread</string>
+    <string name="clear_all">Clear all</string>
+    <string name="no_notifications">No notifications yet</string>
+    <string name="no_notifications_subtitle">Your notifications about new transactions and reminders will appear here</string>
+    <string name="new_notification_received">📬 New notification received</string>
+    <string name="already_in_notifications">You are already in notifications</string>
+    <string name="showing_all_notifications">Showing all notifications</string>
+    <string name="showing_unread_notifications">Showing unread notifications</string>
+    <string name="no_unread_notifications">No unread notifications</string>
+    <string name="all_notifications_read">All notifications are read</string>
+    <string name="clear_notifications">Clear notifications</string>
+    <string name="clear_all_confirmation">Are you sure you want to delete all notifications?</string>
+    <string name="clear">Clear</string>
+    <string name="all_notifications_deleted">All notifications deleted</string>
+    <string name="opening_transaction">Opening transaction #%d</string>
+    <string name="opening_category">Opening category</string>
+    <string name="opening_add_transaction">Opening add transaction</string>
+    <string name="notification_marked_read">Notification marked as read</string>
+    <string name="welcome_notification_title">Welcome to MyFin! 👋</string>
+    <string name="welcome_notification_message">Glad to see you in the app. Your notifications about transactions and reminders will appear here.</string>
+
+    <!-- Categories screen basic -->
+    <string name="view_categories">Browse categories</string>
+    <string name="categories_count_placeholder">Categories: 0</string>
+    <string name="no_categories_settings">No categories\nAdd categories in settings</string>
+    <string name="add_category">Add category</string>
+
+    <!-- Home screen -->
+    <string name="total_balance">Total balance</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="no_transactions">No transactions</string>
+    <string name="add_first_transaction">Add your first transaction</string>
+    <string name="click_to_add">Click to add</string>
+
+    <!-- Categories basic -->
+    <string name="expenses">Expenses</string>
+    <string name="incomes">Incomes</string>
+    <string name="expense_categories_title">Expense categories</string>
+    <string name="income_categories_title">Income categories</string>
+    <string name="categories_count">Categories: %d</string>
+    <string name="no_categories">No expense categories\nAdd categories in Firebase Console</string>
+    <string name="no_categories_found">No categories found\nCheck Firebase connection</string>
+    <string name="food">Food</string>
+    <string name="transport">Transport</string>
+    <string name="cafe">Cafe</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="health">Health</string>
+    <string name="clothing">Clothing</string>
+    <string name="salary">Salary</string>
+    <string name="freelance">Freelance</string>
+    <string name="investments">Investments</string>
+    <string name="gifts">Gifts</string>
+
+    <!-- Additional categories strings -->
+    <string name="add_expense_category">Add expense category</string>
+    <string name="add_income_category">Add income category</string>
+    <string name="categories_count_with_default">Categories: %d (default: %d, yours: %d)</string>
+    <string name="category_name_required">Enter category name</string>
+    <string name="category_updated">Category updated</string>
+    <string name="category_added">Category added</string>
+    <string name="category_deleted">Category deleted</string>
+    <string name="delete_category">Delete category</string>
+    <string name="delete_category_confirmation">Delete category "%s"?</string>
+    <string name="view">View</string>
+    <string name="edit_category">Edit category</string>
+    <string name="default_category">Default category</string>
+    <string name="user_category">Your category</string>
+    <string name="color">Color</string>
+    <string name="icon">Icon</string>
+    <string name="monthly_limit">Limit</string>
+    <string name="category_preview_name">Category name</string>
+    <string name="no_expense_categories">No expense categories\nAdd your first category</string>
+    <string name="no_income_categories">No income categories\nAdd your first category</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="export_data">Export data</string>
+    <string name="load_user_data">Load user data</string>
+    <string name="storage_permission_required">Storage permission is required to export data</string>
+    <string name="text_report">Text report</string>
+    <string name="export_completed">Export completed</string>
+    <string name="export_success_message">%s file successfully exported!\n\n%s</string>
+    <string name="share">Share</string>
+    <string name="my_finances_export">My Finances - Data Export</string>
+    <string name="export_file_attached">Attached file with my financial data</string>
+    <string name="share_file">Share file</string>
+    <string name="share_error">Failed to share file: %s</string>
+    <string name="no_data_title">No data to export</string>
+    <string name="no_data_message">You don\'t have any transactions to export yet. Add some transactions and try again.</string>
+
+    <!-- Additional profile strings (export) -->
+    <string name="export_data_title">Export Data</string>
+    <string name="export_format_csv">CSV file</string>
+    <string name="export_format_excel">Excel file</string>
+    <string name="export_format_text">Text file</string>
+    <string name="export_confirm">Start Export</string>
+    <string name="export_cancel">Cancel</string>
+    <string name="export_in_progress">Exporting data...</string>
+    <string name="export_success">Export completed successfully</string>
+    <string name="export_error">Export error: %s</string>
+    <string name="export_file_location">File saved: %s</string>
+    <string name="export_choose_format">Choose export format</string>
+    <string name="export_preparing">Preparing data for export...</string>
+    <string name="export_processing">Processing data...</string>
+    <string name="export_transactions_count">Exported transactions: %d</string>
+    <string name="export_period">Period: %s</string>
+    <string name="export_date_range">from %s to %s</string>
+    <string name="export_all_time">All time</string>
+    <string name="share_success">File ready to share</string>
+    <string name="share_error_title">Sharing error</string>
+    <string name="file_not_found">File not found</string>
+    <string name="open_file">Open file</string>
+    <string name="open_file_location">Show in folder</string>
+    <string name="export_summary">Summary</string>
+    <string name="total_income">Total income: %s %s</string>
+    <string name="total_expense">Total expense: %s %s</string>
+    <string name="net_balance">Net balance: %s %s</string>
+    <string name="export_date">Export date: %s</string>
+    <string name="export_username">User: %s</string>
+    <string name="export_success_title">Export completed!</string>
+    <string name="export_success_message_format">File %s has been created and saved to Downloads folder</string>
+
+    <!-- Stats -->
+    <string name="statistics">Statistics</string>
+    <string name="statistics_period_week">For a week</string>
+    <string name="statistics_period_month">For a month</string>
+    <string name="statistics_period_year">For a year</string>
+    <string name="stats_income_expense_by_month">Income and expenses by month</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+
+    <!-- Loading -->
+    <string name="loading_data">Error loading data</string>
+    <string name="load_error">Load error</string>
+
+    <!-- Login/Register -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Name</string>
+    <string name="login_title">Welcome</string>
+    <string name="login_subtitle">Sign in to your account</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="no_account">No account?</string>
+    <string name="register_link">Register</string>
+    <string name="register_title">Create account</string>
+    <string name="register_subtitle">Join us</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="sign_in_link">Sign in</string>
+    <string name="password_recovery_title">Password recovery</string>
+    <string name="password_recovery_subtitle">Enter email to recover</string>
+    <string name="password_recovery_info">An email with password recovery instructions will be sent to the specified address</string>
+    <string name="send">Send</string>
+    <string name="remember_password">Remembered your password?</string>
+    <string name="login_success">Login successful</string>
+    <string name="registration_success">Registration successful</string>
+    <string name="auth_failed">Authentication failed: %s</string>
+    <string name="invalid_email">Enter a valid email</string>
+    <string name="weak_password">Password must be at least 6 characters</string>
+    <string name="user_exists">User already exists</string>
+    <string name="fill_all_fields">Fill in all fields</string>
+    <string name="enter_email_and_password">Enter email and password</string>
+    <string name="enter_email">Enter email</string>
+    <string name="reset_password_email_sent">Password reset email sent to %s</string>
+    <string name="delete_notification">Delete notification</string>
+    <string name="delete_notification_confirmation">Are you sure you want to delete this notification?</string>
+    <string name="notification_deleted">Notification deleted</string>
+
+    <!-- Categories dialog -->
+    <string name="category_name_label">Category name</string>
+    <string name="category_select_icon">Select icon</string>
+    <string name="category_select_color">Select color</string>
+    <string name="category_monthly_limit_hint">Monthly limit (expenses only):</string>
+    <string name="category_preview">Preview:</string>
+
+    <!-- Arrays -->
+    <string-array name="transaction_types">
+        <item>Expense</item>
+        <item>Income</item>
+    </string-array>
+
+    <string-array name="expense_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Cafe</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>Clothing</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="income_categories">
+        <item>Salary</item>
+        <item>Freelance</item>
+        <item>Investments</item>
+        <item>Gifts</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>Russian ruble (₽)</item>
+        <item>US dollar ($)</item>
+        <item>Euro (€)</item>
+        <item>Tenge (₸)</item>
+        <item>Belarusian ruble (Br)</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Русский</item>
+        <item>English</item>
+        <item>Қазақша</item>
+        <item>Беларуская</item>
+    </string-array>
+</resources>

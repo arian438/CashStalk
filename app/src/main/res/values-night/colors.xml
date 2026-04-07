@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme colors - эти цвета переопределяют цвета из values/colors.xml для ночной темы -->
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="text_primary">#E0E0E0</color>
+    <color name="text_secondary">#9E9E9E</color>
+    <color name="card_background">#2D2D2D</color>
+    <color name="card_stroke">#404040</color>
+
+    <!-- Цвета для EditText (темная тема - ЧЕРНЫЙ ТЕКСТ для читаемости) -->
+    <color name="edit_text_text">#000000</color>
+    <color name="edit_text_hint">#757575</color>
+    <color name="edit_text_background">#F5F5F5</color>
+    <color name="edit_text_stroke">#666666</color>
+
+    <!-- Для header background (темная тема) -->
+    <color name="header_gradient_start">#4A36CC</color>
+    <color name="header_gradient_end">#3A2AA0</color>
+
+    <!-- Основные цвета остаются теми же (можно не переопределять, если они не меняются) -->
+    <color name="colorPrimary">#5F45FF</color>
+    <color name="colorPrimaryDark">#4A36CC</color>
+    <color name="colorAccent">#FF6B6B</color>
+
+    <!-- Дублируем основные цвета для темной темы (для совместимости) -->
+    <color name="primaryColor">#5F45FF</color>
+    <color name="red">#F44336</color>
+    <color name="light_gray">#404040</color>
+    <color name="gray">#9E9E9E</color>
+</resources>

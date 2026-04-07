@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Название транзакции -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_title_label"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="4dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_title"
+            android:inputType="text"
+            android:maxLines="1"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/edit_text_text"
+            android:textColorHint="@color/edit_text_hint" />
+
+        <!-- Сумма -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_amount_label"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="4dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/amountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="0.00"
+            android:inputType="numberDecimal"
+            android:maxLines="1"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/edit_text_text"
+            android:textColorHint="@color/edit_text_hint" />
+
+        <!-- Тип транзакции -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_type_label"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/typeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Категория -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_category_label"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Дата -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_date_label"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="4dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/dateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/transaction_date_hint"
+            android:inputType="date"
+            android:maxLines="1"
+            android:focusable="false"
+            android:clickable="true"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/edit_text_text"
+            android:textColorHint="@color/edit_text_hint" />
+
+        <!-- Описание -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transaction_description_label"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="4dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/transaction_description_hint"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:maxLines="5"
+            android:background="@drawable/bg_input"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/edit_text_text"
+            android:textColorHint="@color/edit_text_hint" />
+
+    </LinearLayout>
+</ScrollView>

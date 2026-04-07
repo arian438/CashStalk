@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transaction_types">
+        <item>Расход</item>
+        <item>Доход</item>
+    </string-array>
+
+    <string-array name="expense_categories">
+        <item>Продукты</item>
+        <item>Транспорт</item>
+        <item>Кафе</item>
+        <item>Развлечения</item>
+        <item>Здоровье</item>
+        <item>Одежда</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="income_categories">
+        <item>Зарплата</item>
+        <item>Фриланс</item>
+        <item>Инвестиции</item>
+        <item>Подарки</item>
+        <item>Другое</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>Российский рубль (₽)</item>
+        <item>Доллар США ($)</item>
+        <item>Евро (€)</item>
+        <item>Тенге (₸)</item>
+        <item>Белорусский рубль (Br)</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Русский</item>
+        <item>English</item>
+        <item>Қазақша</item>
+        <item>Беларуская</item>
+    </string-array>
+</resources>

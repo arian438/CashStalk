@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Название категории -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/category_name_label"
+                android:textColor="#666666"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etCategoryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:background="@drawable/bg_input"
+                android:padding="12dp" />
+        </LinearLayout>
+
+        <!-- Выбор иконки - ГОРИЗОНТАЛЬНЫЙ скролл -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/category_select_icon"
+                android:textColor="#666666"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvIcons"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+            android:padding="4dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:orientation="horizontal" />
+        </LinearLayout>
+
+        <!-- Выбор цвета -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/category_select_color"
+                android:textColor="#666666"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvColors"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:padding="4dp"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="6" />
+        </LinearLayout>
+
+        <!-- Лимит (только для расходов) -->
+        <TextView
+            android:id="@+id/tvMonthlyLimitLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_monthly_limit_hint"
+            android:textColor="#666666"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etMonthlyLimit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:hint="0"
+                android:background="@drawable/bg_input"
+                android:padding="12dp" />
+        </LinearLayout>
+
+        <!-- Предпросмотр категории -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_preview"
+            android:textColor="#666666"
+            android:textSize="12sp"
+            android:layout_marginBottom="4dp" />
+
+        <LinearLayout
+            android:id="@+id/categoryPreview"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@drawable/bg_input"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/previewIcon"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:gravity="center"
+                android:text="💸"
+                android:textSize="18sp"
+                android:background="#4ECDC4"
+                android:backgroundTint="#4ECDC4"
+                android:padding="12dp"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/previewName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/category_name_label"
+                android:textSize="16sp"
+                android:textColor="#161616" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,198 @@
+{
+  "categories": {
+    "expenses": {
+      "Кафе": {
+        "color": "#FFD166",
+        "icon": "☕",
+        "monthlyLimit": 8000
+      },
+      "Продукты": {
+        "color": "#FF6B6B",
+        "icon": "🛒",
+        "monthlyLimit": 15000
+      },
+      "Транспорт": {
+        "color": "#4ECDC4",
+        "icon": "🚗",
+        "monthlyLimit": 5000
+      }
+    },
+    "incomes": {
+      "Зарплата": {
+        "color": "#118AB2",
+        "icon": "💰"
+      },
+      "Фриланс": {
+        "color": "#073B4C",
+        "icon": "💻"
+      }
+    }
+  },
+  "transactions": {
+    "UwIE9IcXMwgTq1klGgE8vCQBek53": {
+      "transaction_1765813851885_1": {
+        "amount": 85000,
+        "category": "Зарплата",
+        "date": "2023-11-01",
+        "description": "Ежемесячная зарплата",
+        "id": "transaction_1",
+        "title": "Зарплата",
+        "type": "income",
+        "userId": "UwIE9IcXMwgTq1klGgE8vCQBek53"
+      },
+      "transaction_1765813851885_2": {
+        "amount": 3500,
+        "category": "Продукты",
+        "date": "2023-11-03",
+        "description": "Покупка продуктов в супермаркете",
+        "id": "transaction_2",
+        "title": "Продукты",
+        "type": "expense",
+        "userId": "UwIE9IcXMwgTq1klGgE8vCQBek53"
+      },
+      "transaction_1765813851885_3": {
+        "amount": 500,
+        "category": "Транспорт",
+        "date": "2023-11-05",
+        "description": "Проезд на метро",
+        "id": "transaction_3",
+        "title": "Транспорт",
+        "type": "expense",
+        "userId": "UwIE9IcXMwgTq1klGgE8vCQBek53"
+      },
+      "transaction_1766154412077": {
+        "amount": 30000,
+        "category": "Здоровье",
+        "createdAt": 1766154412085,
+        "date": "2025-12-19",
+        "description": "1",
+        "id": "transaction_1766154412077",
+        "title": "Зарплата",
+        "type": "income"
+      },
+      "transaction_1766158709312": {
+        "amount": 30000,
+        "category": "Продукты",
+        "createdAt": 1766158709329,
+        "date": "2025-12-19",
+        "description": "",
+        "id": "transaction_1766158709312",
+        "title": "Зарплата",
+        "type": "income"
+      },
+      "transaction_1766158770642": {
+        "amount": 30000,
+        "category": "Продукты",
+        "createdAt": 1766158770653,
+        "date": "2025-12-19",
+        "description": "",
+        "id": "transaction_1766158770642",
+        "title": "Зарплата",
+        "type": "income"
+      },
+      "transaction_1766158847223": {
+        "amount": 30000,
+        "category": "Продукты",
+        "createdAt": 1766158847225,
+        "date": "2025-12-19",
+        "description": "",
+        "id": "transaction_1766158847223",
+        "title": "Зарплата",
+        "type": "income"
+      },
+      "transaction_1766158860749": {
+        "amount": 30000,
+        "category": "Продукты",
+        "createdAt": 1766158860750,
+        "date": "2025-12-19",
+        "description": "",
+        "id": "transaction_1766158860749",
+        "title": "зарплата",
+        "type": "income"
+      },
+      "transaction_1766159080067": {
+        "amount": 30000,
+        "category": "Зарплата",
+        "createdAt": 1766159080082,
+        "date": "2025-12-19",
+        "description": "",
+        "id": "transaction_1766159080067",
+        "title": "Зарплата",
+        "type": "income",
+        "userId": "UwIE9IcXMwgTq1klGgE8vCQBek53"
+      },
+      "transaction_1766233064707": {
+        "amount": 20000,
+        "category": "Продукты",
+        "createdAt": 1766233064723,
+        "date": "2025-12-20",
+        "description": "м",
+        "id": "transaction_1766233064707",
+        "title": "Зарплата",
+        "type": "income",
+        "userId": "UwIE9IcXMwgTq1klGgE8vCQBek53"
+      }
+    }
+  },
+  "users": {
+    "6Q9EX32SnwbCo88d4RoFqTZtMLl2": {
+      "currency": "",
+      "currencySymbol": "",
+      "darkMode": "",
+      "default": "",
+      "email": "petrov@mali.ru",
+      "fio": "Сергей Петров",
+      "id": "6Q9EX32SnwbCo88d4RoFqTZtMLl2",
+      "language": "",
+      "notifications": "",
+      "orderIndex": ""
+    },
+    "79qJKemmdScjisAs1KYDbxpXmej2": {
+      "currency": "",
+      "currencySymbol": "",
+      "darkMode": "",
+      "default": "",
+      "email": "ivanovs@mail.ru",
+      "fio": "Сергей Иванов",
+      "id": "79qJKemmdScjisAs1KYDbxpXmej2",
+      "language": "",
+      "notifications": "",
+      "orderIndex": ""
+    },
+    "9I5nLOBxAUhWSUASz78Y4OkE5va2": {
+      "currency": "",
+      "currencySymbol": "",
+      "darkMode": "",
+      "default": "",
+      "email": "petrob@mail.ru",
+      "fio": "Сергей Петров",
+      "id": "9I5nLOBxAUhWSUASz78Y4OkE5va2",
+      "language": "",
+      "notifications": "",
+      "orderIndex": ""
+    },
+    "UwIE9IcXMwgTq1klGgE8vCQBek53": {
+      "currency": "Рубль",
+      "currencySymbol": "₽",
+      "darkMode": "",
+      "default": "",
+      "email": "ivan@gmail.com",
+      "fio": "Иван",
+      "id": "UwIE9IcXMwgTq1klGgE8vCQBek53",
+      "language": "",
+      "notifications": "",
+      "orderIndex": ""
+    },
+    "currency": "",
+    "currencySymbol": "",
+    "darkMode": "",
+    "email": "",
+    "fio": "",
+    "id": "",
+    "isDefault": "",
+    "language": "",
+    "notifications": "",
+    "orderIndex": "",
+    "password": ""
+  }
+}

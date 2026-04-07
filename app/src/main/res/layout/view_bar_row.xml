@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <TextView
+        android:id="@+id/monthTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/textColorPrimary"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        tools:text="Jun" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/barIncome"
+            android:layout_width="0dp"
+            android:layout_height="8dp"
+            android:layout_weight="0.5"
+            android:background="#0FB572" />
+
+        <View
+            android:id="@+id/barExpense"
+            android:layout_width="0dp"
+            android:layout_height="8dp"
+            android:layout_weight="0.5"
+            android:layout_marginStart="8dp"
+            android:background="#EF4444" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="2dp">
+
+        <TextView
+            android:id="@+id/incomeValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="₽0"
+            android:textColor="?attr/textColorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/expenseValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₽0"
+            android:textColor="?attr/textColorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
