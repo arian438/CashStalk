@@ -98,6 +98,13 @@ class NotificationRepository(private val context: Context) {
             Log.d(TAG, "Заголовок: ${notification.title}")
             Log.d(TAG, "Сообщение: ${notification.message}")
 
+            // ✅ ДОБАВИТЬ ПРОВЕРКУ - включены ли уведомления в настройках
+            val notificationsEnabled = areNotificationsEnabled()
+            if (!notificationsEnabled) {
+                Log.d(TAG, "⚠️ Уведомления отключены в настройках, пропускаем")
+                return
+            }
+
             val notifications = getAllNotifications().toMutableList()
 
             val finalNotification = if (notification.timestamp.isEmpty()) {
@@ -471,6 +478,28 @@ class NotificationRepository(private val context: Context) {
             category = "system",
             transactionId = null
         )
+    }
+
+    /**
+     * Обновляет состояние уведомлений (вызывается из SettingsFragment при изменении)
+     */
+    fun updateNotificationsEnabled(enabled: Boolean) {
+        Log.d(TAG, "Notifications setting updated: $enabled")
+        // Здесь можно сохранить в отдельный SharedPreferences или просто использовать глобальный
+    }
+    /**
+     * Проверяет, включены ли уведомления в настройках пользователя
+     */
+    private fun areNotificationsEnabled(): Boolean {
+        return try {
+            val sharedPrefs = context.getSharedPreferences("app_settings", Context.MODE_PRIVATE)
+            val enabled = sharedPrefs.getBoolean("notifications", true)
+            Log.d(TAG, "Notifications enabled in settings: $enabled")
+            enabled
+        } catch (e: Exception) {
+            Log.e(TAG, "Error checking notifications setting", e)
+            true // по умолчанию true
+        }
     }
 
     private fun formatAmount(amount: Double): String {
