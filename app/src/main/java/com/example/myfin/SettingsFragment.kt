@@ -331,7 +331,7 @@ class SettingsFragment : Fragment() {
                 updateBiometricStatusText(false)
                 Toast.makeText(
                     requireContext(),
-                    "Биометрия отключена",
+                    getString(R.string.turn_off),
                     Toast.LENGTH_SHORT
                 ).show()
                 return@setOnCheckedChangeListener
@@ -355,7 +355,7 @@ class SettingsFragment : Fragment() {
 
                             Toast.makeText(
                                 requireContext(),
-                                "Биометрия включена",
+                                getString(R.string.turn_on),
                                 Toast.LENGTH_SHORT
                             ).show()
                         }

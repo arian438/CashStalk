@@ -3,6 +3,7 @@
 
     <string name="app_name">CashStalk</string>
 
+    <string name="turn_off">Биометрия выключена</string>
     <string name="turn_on">Биометрия включена</string>
     <string name="year_full">%s год</string>
     <string name="expenses_by_category">Расходы по категориям</string>
