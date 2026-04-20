@@ -310,7 +310,7 @@ class SettingsFragment : Fragment() {
 
     private fun updateBiometricStatusText(enabled: Boolean) {
         biometricStatusText.text = if (enabled)
-            "Биометрия включена" else getString(R.string.face_id_touch_id)
+            getString(R.string.turn_on) else getString(R.string.face_id_touch_id)
     }
 
     private fun setupBiometricSwitch() {

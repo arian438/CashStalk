@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CashStalk</string>
+
+    <string name="turn_on">Біяметрыя ўключана</string>
     <string name="year_full">%s год</string>
     <string name="expenses_by_category">Расходы па катэгорыях</string>
     <string name="incomes_by_category">Даходы па катэгорыях</string>

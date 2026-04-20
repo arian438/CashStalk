@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">CashStalk</string>
 
+    <string name="turn_on">Биометрия енгізілген</string>
     <!-- Жыл үшін қолтаңба қосылды -->
     <string name="year_full">%s жыл</string>
     <!-- Добавьте в раздел статистики -->

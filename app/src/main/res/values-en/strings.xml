@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CashStalk</string>
-    <!-- Added string for year subtitle -->
+
+    <string name="turn_on">Biometrics is enabled</string>
     <string name="year_full">%s year</string>
-    <!-- Добавьте в раздел Statistics -->
     <string name="expenses_by_category">Expenses by category</string>
     <string name="incomes_by_category">Incomes by category</string>
-    <!-- Notifications - new strings -->
     <string name="bar_chart">General statistics</string>
     <string name="pie_chart">By categories</string>
     <string name="no_data_for_period">No data for selected period</string>
-    <!-- Разрешения / Permissions -->
     <string name="notifications_permission_title">Notification Permission</string>
     <string name="notifications_permission_rationale">CashStalk wants to send you notifications about new transactions, reminders and important events</string>
     <!-- Добавьте в раздел Notifications -->
