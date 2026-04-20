@@ -481,7 +481,7 @@ class NotificationRepository(private val context: Context) {
     }
 
     /**
-     * Обновляет состояние уведомлений (вызывается из SettingsFragment при изменении)
+     * Обновляет состояние уведомлений
      */
     fun updateNotificationsEnabled(enabled: Boolean) {
         Log.d(TAG, "Notifications setting updated: $enabled")
