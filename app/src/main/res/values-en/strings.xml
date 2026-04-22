@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">CashStalk</string>
 
+    <string name="title_confirmation">Confirmation</string>
+    <string name="enter_app">Log in to the app</string>
+    <string name="touch">Use your fingerprint</string>
     <string name="turn_off">Biometrics is disabled</string>
     <string name="turn_on">Biometrics is enabled</string>
     <string name="year_full">%s year</string>

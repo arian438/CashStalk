@@ -383,9 +383,9 @@ class SettingsFragment : Fragment() {
                 )
 
                 val promptInfo = BiometricPrompt.PromptInfo.Builder()
-                    .setTitle("Подтверждение")
-                    .setSubtitle("Вход в приложение")
-                    .setDescription("Используйте отпечаток пальца или лицо")
+                    .setTitle(getString(R.string.title_confirmation))
+                    .setSubtitle(getString(R.string.enter_app))
+                    .setDescription(getString(R.string.touch))
                     .setAllowedAuthenticators(BiometricManager.Authenticators.BIOMETRIC_WEAK)
                     .setNegativeButtonText(getString(R.string.cancel))
                     .build()

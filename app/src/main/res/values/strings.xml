@@ -3,6 +3,9 @@
 
     <string name="app_name">CashStalk</string>
 
+    <string name="title_confirmation">Подтверждение</string>
+    <string name="enter_app">Вход в приложение</string>
+    <string name="touch">Используйте отпечаток пальца</string>
     <string name="turn_off">Биометрия выключена</string>
     <string name="turn_on">Биометрия включена</string>
     <string name="year_full">%s год</string>

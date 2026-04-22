@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">CashStalk</string>
 
+    <string name="title_confirmation">Пацверджанне</string>
+    <string name="enter_app">Уваход у дадатак</string>
+    <string name="touch">Выкарыстоўвайце адбітак пальца</string>
     <string name="turn_off">Біяметрыя выключана</string>
     <string name="turn_on">Біяметрыя ўключана</string>
     <string name="year_full">%s год</string>

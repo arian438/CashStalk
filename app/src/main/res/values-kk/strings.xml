@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">CashStalk</string>
 
+    <string name="title_confirmation">Растау</string>
+    <string name="enter_app">Қолданбаға кіру</string>
+    <string name="touch">Саусақ ізін қолданыңыз</string>
     <string name="turn_off">Биометрия өшірулі</string>
     <string name="turn_on">Биометрия енгізілген</string>
     <!-- Жыл үшін қолтаңба қосылды -->
